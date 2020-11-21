@@ -1,0 +1,34 @@
+#imagesPanel{
+    margin:10px;
+}
+
+
+.case-image{
+    padding:5px 5px;
+    margin:0px;
+     overflow-x: scroll;
+    scroll-behavior: auto;
+    width:100%;
+}
+
+hr{
+    margin:5px 0;
+}
+
+.cardImages{
+    display:inline-block;
+   
+}
+
+
+h5{
+    font-family: 'Anton', sans-serif;
+}
+
+.case-body p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.comments span{
+    font-size: x-small;
+}

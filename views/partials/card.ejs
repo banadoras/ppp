@@ -1,0 +1,13 @@
+<div class="my-card card d-inline-block m-1 shadow" style="width: 15rem;"> 
+  
+  <img class="card-img-top" style="height:10rem;object-fit: cover;" src="<%= tCase.images[0].src %>">
+  <img class="d-block mx-auto" src="<%= tCase.user.image.src %>" style="object-fit: cover; height: 5rem; width: 5rem; border:solid white 5px;border-radius: 50%;margin-top: -2.5rem;position: relative;z-index: 1;background-color: white;">
+  <div class="card-body">
+    <h5 class="card-title" style="height: 3rem;overflow: hidden;"><%= tCase.title %></h5>
+    
+    <span class=" d-block mb-2"><%= tCase.date %></span>
+    <p class="card-text" style="height: 5rem;overflow: hidden;"><%= tCase.description %></p>
+    <a href="/cases/<%= tCase.id %>" class="btn btn-dark btn-sm">Details</a>
+    <a href="/cases/deleteCase/<%= tCase.id %>" class="btn btn-danger btn-sm d-<%= deletable %>">Delete</a>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+#imagesPanel{
+    margin:10px;
+}
+
+form img{
+    border:solid 5px white;
+    box-shadow: grey 1px 1px 5px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.case-image{
+    padding:5px 5px;
+    margin:0px;
+}
+
+hr{
+    margin:5px 0;
+}
+
+.cardImages{
+    display:inline-block;
+   
+}
+
+
+.my-card{
+    transition: transform 1s;
+}
+
+.my-card:hover{
+    box-shadow:1px 1px 20px yellow;
+    transform: scale(1.1,1.1);
+    z-index: 2;
+    
+    
+}
+
+.card-title{
+    font-family: 'Anton', sans-serif;
+}
+
+.card-text{
+    font-family: 'Quicksand', sans-serif;
+}
